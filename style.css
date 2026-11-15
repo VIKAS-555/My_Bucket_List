@@ -248,3 +248,17 @@ body {
   align-items: center;
 }
 
+.category-tag {
+  align-self: flex-start;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.tag-career { background-color: #e0e7ff; color: #4338ca; }
+.tag-fitness { background-color: #fef3c7; color: #b45309; }
+.tag-travel { background-color: #e0f2fe; color: #0369a1; }
+
+
