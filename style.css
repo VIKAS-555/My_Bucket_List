@@ -60,3 +60,49 @@ body {
 .nav-links a:hover {
   color: #2563eb;
 }
+
+.hero-section{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap:27px;
+}
+.hero-pill{
+    background-color: #abbde4;
+    padding:3px 6px;
+    border-radius:999px;
+    font-size:small;
+    font-weight: 700;
+    margin-top:12px;
+    color:#2563eb;
+    background-color: #dbeafe;
+}
+.hero-title{
+    font-size: 3rem;
+  font-weight: 900;
+  color: #0b1329;
+  line-height: 1.15;
+  margin-bottom: 16px;
+}
+.hero-subtitle{
+    margin-bottom:32px;
+    font-weight: 500;
+    color:#64748b;
+    line-height: 1.6;
+}
+.tip-banner{
+    border:2px dashed #2563eb;
+    border-radius:999px;
+    padding:4px 6px;
+    font-weight: 800;
+    letter-spacing:0.06rem;
+    background-color: #ffffff;
+    color: #2563eb;
+    font-size:smaller
+    
+}
+
+.bulb-icon {
+  font-size: 1.1rem;
+}
