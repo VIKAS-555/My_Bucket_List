@@ -191,3 +191,16 @@ body {
   background-color: #059669;
   border-radius: 999px;
 }
+
+.milestones-section {
+  max-width: 950px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.milestones-grid {
+  display: grid;
+  grid-template-columns:repeat(2, 1fr);
+  gap: 20px;
+}
