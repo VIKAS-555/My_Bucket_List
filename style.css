@@ -9,3 +9,54 @@ body {
   color: #0f172a;
   background-color: #ffffff;
 }
+
+.navbar-wrapper {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 18px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #2563eb; 
+  text-decoration: none;
+  letter-spacing: -0.02em;
+}
+
+.sparkle {
+  font-size: 1.1rem;
+  color: #3b82f6;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 28px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #475569;
+  transition: color 0.15s ease;
+}
+
+.nav-links a:hover {
+  color: #2563eb;
+}
