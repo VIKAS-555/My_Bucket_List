@@ -261,4 +261,23 @@ body {
 .tag-fitness { background-color: #fef3c7; color: #b45309; }
 .tag-travel { background-color: #e0f2fe; color: #0369a1; }
 
+.status-text::before {
+  content: "In Progress";
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #94a3b8;
+}
+
+.checkbox-visual {
+  width: 22px;
+  height: 22px;
+  border: 2px solid #cbd5e1;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+
 
