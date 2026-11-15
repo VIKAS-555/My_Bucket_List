@@ -279,5 +279,36 @@ body {
   transition: all 0.2s ease;
 }
 
+.goal-check:checked + .goal-card {
+  border-color: #16a34a;
+}
+
+.goal-check:checked + .goal-card .card-title {
+  text-decoration: line-through;
+  color: #94a3b8;
+}
+
+.goal-check:checked + .goal-card .card-desc {
+  color: #94a3b8;
+}
+
+.goal-check:checked + .goal-card .status-text::before {
+  content: "Completed ✓";
+  color: #16a34a;
+}
+
+.goal-check:checked + .goal-card .checkbox-visual {
+  background-color: #16a34a;
+  border-color: #16a34a;
+}
+
+.goal-check:checked + .goal-card .checkbox-visual::after {
+  content: "✓";
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 900;
+}
+
+
 
 
